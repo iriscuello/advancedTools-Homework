@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>[Your name]</title>
+    <meta name="description" content="Apps that I have built with sheCodes.io">
+    <title>Front-End Developer - Iris Linares</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,44 +17,53 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/styling/style.css" />
   </head>
   <body>
-      <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html#contact">Contact Me</a>
-                </li>
-                
-              </ul>
-            </div>
-          </div>
-        </nav>
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <h2 id="hi">👋 Hi I am</h2>
     <h1>Iris Linares</h1>
     <h3>🇨🇦 Front-end developer, based in Toronto, Canada</h3>
     <div class="navigation-links">
-      <a href="about.html#contact" class="contact-link">Contact me</a>
-      <a href="about.html" class="about-link">About me</a>
+      <a href="about.html#contact" title="Contact me" class="contact-link">Contact me</a>
+      <a href="about.html" title="About Me" class="about-link">About me</a>
     </div>
     <div class="container mt-2">
       <div class="row">
         <div class="col-md-6">
           <img
-            src="images/yoga.png"
-            class="img-fluid border rounded shadow-sm"
+            src="images/yoga.png" alt="Yoga project"
+            class="img-fluid border rounded shadow-sm d-none d-lg-block"
           />
         </div>
         <div class="col-md-6">
@@ -65,9 +75,7 @@
             for yourself.
           </h5>
           <br />
-          <a
-            href="#hi"
-            class="contact-link p-3 rounded text-decoration-none"
+          <a href="#hi" title="Yoga App" class="contact-link p-3 rounded text-decoration-none"
             >Launch Yoga App</a
           >
         </div>
@@ -84,16 +92,14 @@
             a 5 day forcast along with percipitaion likelyhood and wind speed.
           </h5>
           <br />
-          <a
-            href="#hi"
-            class="contact-link p-3 rounded text-decoration-none"
+          <a href="#hi"  title="Weather App" class="contact-link p-3 rounded text-decoration-none"
             >Launch Weather App</a
           >
         </div>
         <div class="col-md-6">
           <img
-            src="images/weather.png"
-            class="img-fluid border rounded shadow-sm"
+            src="images/weather.png" alt="Weather project"
+            class="img-fluid border rounded shadow-sm d-none d-lg-block"
           />
         </div>
       </div>
@@ -102,21 +108,23 @@
       <div class="row">
         <div class="col-md-6">
           <img
-            src="images/yogurt.png"
-            class="img-fluid border rounded shadow-sm"
+            src="images/yogurt.png" alt="Yogurt Project"
+            class="img-fluid border rounded shadow-sm d-none d-lg-block"
           />
         </div>
-   
-      <div class="col-md-6">
-        <h4>Yogurt App</h4>
-        <br />
-        <h5 class="fw-normal">
-          The Yogurt app explains the process of making one of my favorite yogurts. Greek Yogurt. Not just healthy but great tasting too.
-        </h5>
-        <br />
-        <a href="#hi" class="contact-link p-3 rounded text-decoration-none"
-          >Launch Yogurt App</a
-        >
+
+        <div class="col-md-6">
+          <h4>Yogurt App</h4>
+          <br />
+          <h5 class="fw-normal">
+            The Yogurt app explains the process of making one of my favorite
+            yogurts. Greek Yogurt. Not just healthy but great tasting too.
+          </h5>
+          <br />
+          <a href="#hi" title="Yogurt app" class="contact-link p-3 rounded text-decoration-none"
+            >Launch Yogurt App</a
+          >
+        </div>
       </div>
     </div>
   </body>

@@ -18,6 +18,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  margin-top: 40px;
 }
 
 h3 {
@@ -78,6 +79,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 40px;
 }
 
 .email-link:hover {
@@ -93,9 +95,20 @@ img {
 }
 .container {
   margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 #aboutPics {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+  .row {
+    text-align: center;
+  }
 }
